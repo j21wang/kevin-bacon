@@ -38,7 +38,8 @@ public class Main {
 			}
 		}
 		
-		// The menu keeps looping until the user chooses 3 to exit.
+		// The menu keeps looping until either the user enters 1 to find a path
+		// from one actor or actress to Kevin Bacon or the user enters 3 to exit. 
 		while (true) {
 			System.out.println("Menu:");
 			System.out.println("1 - Find the path to Bacon!");
@@ -61,6 +62,7 @@ public class Main {
 						Node kevinBacon = bfs.findPath(actor, "Kevin Bacon");
 						System.out.println("\nPath:\n" + bfs.outputPath(kevinBacon) + "\n");
 					}
+                    break;
 				} else if (menuChoice == 2) {
 					System.out.println("\nInstructions - Find the path to Bacon!\n" +
 							"Enter the name of an actor or actress, and\n" +
