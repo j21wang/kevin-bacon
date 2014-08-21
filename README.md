@@ -1,4 +1,4 @@
-Etsy Interview Assignment: kevin-bacon
+kevin-bacon
 ===========
 
 Instructions:
